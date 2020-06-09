@@ -1,0 +1,648 @@
+/*font-family: 'Abril Fatface', cursive;
+font-family: 'Cormorant SC', serif;
+font-family: 'Emblema One', cursive;
+font-family: 'Faster One', cursive;
+font-family: 'Geostar Fill', cursive;
+font-family: 'Iceland', cursive;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Kumar One', cursive;
+font-family: 'Kumar One Outline', cursive;
+font-family: 'Libre Barcode 128 Text', cursive;
+font-family: 'Marcellus SC', serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Nosifer', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Quantico', sans-serif;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Croissant One', cursive;
+font-family: 'Elsie Swash Caps', cursive;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Black Ops One', cursive;
+font-family: 'Ceviche One', cursive;
+font-family: 'Nova Cut', cursive;*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    background-repeat: round;
+}
+
+.grandma-container {
+    width: 98vw;
+    height: 100vh;
+    background-image: url("img/jpeg/Neon-Roses.png");
+    background-repeat: repeat-x;
+}
+
+
+#cooking {
+    color: black;
+    font-family: 'Elsie Swash Caps','Croissant One', 'Cinzel Decorative', sans-serif;
+    font-size: 14.7rem;
+    line-height: 12rem;
+
+    text-align: center;
+    text-indent: 0px;
+    text-shadow: 4px 4px 0 black, 6px 6px 0 #C60995, 6.4px 6.4px 0 #4D20EF, 8px 8px 0 #E88023;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.grandma-contain-transparent {
+    width: 98vw;
+    /*background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(84, 48, 216, 0.23), black);*/
+}
+
+.grandma {
+    width: 60vw;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: left;
+    text-indent: -1em;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    column-width: 400px;
+    column-count: 2;
+    padding: 30px;
+    column-gap: 30px;
+}
+
+.grandma img {
+    height: 25vh;
+    float: left;
+    margin: 25px 40px 0px 40px;
+    opacity: .8;
+    position: relative;
+    right: 25px;
+    margin-bottom: 15px;
+    filter: saturate(1.3);
+}
+
+#title {
+    margin-top: -20px;
+    font-family: 'Elsie Swash Caps','Croissant One', 'Cinzel Decorative', sans-serif;
+    font-size: 2.3rem;
+    text-align: right;
+    text-indent: 0px;
+    color: white;
+    text-shadow: 1px 1px 0 #4D20EF, 1.3px 1.3px 0 #EADC36;
+    padding-left: 10px;
+}
+
+.grandma h3 {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgba(238, 147, 218, 0.897);
+    text-shadow: .5px .5px 0 black, 1px .7px 0 black;
+}
+
+.grandma p {
+    font-family: 'Cinzel Decorative', 'Crimson Text', serif;
+    font-size: .8rem;
+    line-height: 1.7rem;
+    color: rgba(238, 147, 218, 0.897);
+    /*color: rgba(10, 231, 231, .8);*/
+    text-align: left;
+    text-shadow: .4px .4px 0 black, .5px .5px 0 #EADC36;
+    /*text-shadow: .1px .1px 0 #C60995, .15px .15px 0 #EADC36, .2px .2px 0 #4D20EF;*/
+    padding: 5px 10px 5px 10px;
+}
+
+.first::first-letter {
+    font-size: 2.2em;
+}
+
+.listen {
+    width: 98vw;
+    height: 110vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    margin: auto, 0, auto, 0;
+    z-index: 1;
+}
+
+.listen h2 {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-30%);
+    color: black;
+    font-family: 'Kumar One', cursive, 'Cormorant SC', 'Geostar Fill', cursive;
+    font-size: 10rem;
+    text-shadow: 1px 1px 0 #C60995, 2px 2px 0 #EADC36, 3px 3px 0 #4D20EF, 4px 4px 0 #E88023;
+}
+
+.black-hole-container {
+    width: 98vw;
+    background-image: url("img/Cloudscape.png");
+    background-size: 100vw;
+    border-radius: 12%;
+}
+
+.black-hole {
+    width: 60vw;
+    background-color: rgba(0,0,0,.7);
+    text-align: left;
+    text-indent: 2em;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.black-hole img {
+    margin-bottom: 10px;
+}
+
+.black-hole-img {
+    filter: hue-rotate(60deg);
+}
+
+.mekleit-grandma {
+    background-color: aqua; 
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    filter: saturate(.6);
+}
+
+.things-fall-apart {
+    width: 60%;
+}
+
+.listening {
+    width: 39%;
+    height: 407px;
+    margin-left: 5px;
+}
+
+.lose-sight {
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.black-hole p {
+    margin: 25px 20px 10px 0px;
+    color: rgb(255, 234, 204);
+    text-shadow: .1px .1px 0 #121212;
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.black-hole-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    float: right;
+    border-radius: 50%;
+    mix-blend-mode: screen;
+    filter: hue-rotate(50deg);
+    shape-outside: circle();
+}
+
+.between-us {
+    width: 55%;
+    height: 50px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: black;
+    font-family: 'Marcellus SC', serif;
+    font-size: 2rem;
+    text-align: right;
+    text-shadow: .25px .25px 0 #39F66A, .5px .5px 0 #177FDC, .75px .75px 0 #1523C9, 1px 1px 0 #C60995;
+    line-height: .7em;
+    margin-top: 50vh;
+    margin-bottom: 40vh;
+}
+
+.hummingbird {
+    width: 60%;
+    position: absolute;
+    bottom: -1000%;
+    right: 500px;
+    z-index: -1;
+}
+
+.kinship-container {
+    width: 98vw;
+    position: relative;
+    top: 40%;
+}
+
+.attenuated {
+    width: 40vw;
+    position: absolute;
+    top: 5%;
+    right: 0%;
+
+    transform: rotateY(180deg);
+    transform: rotate(-92deg);
+    filter: saturate(1.4);
+}
+
+.kinship-container .diaspora {
+    height: 100vh;
+    object-fit: contain;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+}
+
+.kinship-surplus {
+    background-color: rgba(0,0,0,.7);
+    width: 50vw;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+.kinship-surplus p {
+    color: #C60995;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: .8rem;
+    line-height: 2.5rem;
+    text-indent: 2em;
+    text-align: left;
+    text-shadow: .1px .1px 0 #C60995, .15px .15px 0 #EADC36, .2px .2px 0 #4D20EF;
+    filter: invert(1);
+}
+
+.Hortense {
+    width: 98vw;
+    height: 120vh;
+    background-color: rgba(0,0,0,.7);
+    margin: auto;
+}
+
+.Hortense h2 {
+    color:black;
+    font-size: 12rem;
+    font-family: 'Nosifer', cursive;
+    text-shadow: 2.5px 2.5px 0 rgba(255, 0, 0,.7), 3px 3px 0 blanchedalmond, 4px 4px 0 #EADC36;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Hortense video {
+    width: 30%;
+    margin-top: 275px;
+    float: right;
+    z-index: 1;
+}
+
+.flesh {
+    background-color:rgba(255,0,0,.7);
+    background-image: url("img/flesh-background.png");
+    object-fit: cover;
+    object-position: center;
+    color: blanchedalmond;
+    text-indent: 0px;
+    width: 98vw;
+}
+
+
+.flesh-header {
+    width: 98vw;
+    height: 15vh;
+    position: relative;
+    top: 50px;
+}
+
+.flesh-header h3 {
+    height: 150px;
+    line-height: .7em;
+    font-size: 5rem;
+    font-family: 'Nosifer', cursive;
+    text-align: center;
+    text-shadow: .5px .5px 0 rgba(255, 0, 0,.7), 1px 1px 0 #EADC36, 2.5px 2.5px 0 black;
+}
+
+.flesh pre {
+    width: 50%;
+    color: white;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    margin-left: 150px;
+    margin-bottom: 50vh;
+    font-family: 'Philosopher', sans-serif;
+    background-color: rgba(88, 33, 33, 0.6);
+}
+
+.container {
+    position: relative;
+    top: 200px;
+    width: 98vw;
+    margin-bottom: 50vh;
+    background-image: url("img/jpeg/Neon-Logo.png");
+    background-size: 300px;
+}
+
+.container h1 {
+    font-family: 'Quantico', 'Times New Roman', Times, serif;
+    font-size: 24rem;
+    position: absolute;
+    top: -1700%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 1px 1px 0 #C60995, 2px 2px 0 #EADC36, 3px 3px 0 #4D20EF, 4px 4px 0 #E88023;
+}
+
+.circles {
+    width: 11vh;
+    height: 11vh;
+    border-radius: 50%;
+    position: absolute;
+    opacity: .3;
+}
+
+#poetry {
+    background-color: #C60995;
+    left: 46%;
+    top: -100px;
+    animation: change 6s;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+    animation-delay: .7s;
+}
+#synonymous {
+    background-color: #E88023;
+    left: 46%;
+    top: -100px;
+    animation: change 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: .6s;
+}
+
+#films {
+    background-color: #EADC36;
+    left: 46%;
+    top: -100px;
+    animation: change 6s;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+    animation-delay: .5s;
+}
+ 
+#instagram {
+    background-color: #4D20EF;
+    left: 46%;
+    top: -100px;
+    animation: change 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: .4s;
+}
+
+
+#poetry2 {
+    background-color: #39F66A;
+    left: 46%;
+    top: -100px;
+    animation: change 6s;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+    animation-delay: .3s;
+}
+#synonymous2 {
+    background-color: #177FDC;
+    left: 46%;
+    top: -100px; 
+    animation: change 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: .2s;
+}
+#films2 {
+    background-color: #1523C9;
+    left: 46%;
+    top: -100px; 
+    animation: change 6s;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+    animation-delay: .1s;
+}
+ 
+#instagram2 {
+    background-color: #242424;
+    left: 46%;
+    top: -100px;
+    animation: change 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+
+.logo {
+    background-color: black;
+    width: 50vw;
+    position: relative;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+}
+
+.logo p {
+    color: #C60995;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: left;
+    text-indent: 2em;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.question {
+    width: 400px;
+    float: right;
+}
+
+#Jameson {
+    color: #EADC36;
+    font-size: 1.1rem;
+    line-height: 1rem;
+    text-align: justify;
+}
+
+#no-indent {
+    text-indent: 0px;
+}
+
+.coincitation-container {
+    width: 98vw;
+    background-color:rgba(0,0,0,.7);
+    position: relative;
+}
+
+.coincitation {
+    width: 55vw;
+    text-indent: 2em;
+    float: right;
+    margin-top: 100px;
+    margin-right: 100px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Jhabri {
+    position: absolute;
+    width: 20vw;
+    top: 40vh;
+    left: 18vw;
+    z-index: -2;
+    border-radius: 10%;
+    animation: twinkle 3s;
+    animation-iteration-count: infinite;
+}
+
+.Eva1 {
+    position: absolute;
+    width: 35vw;
+    top: 82vh;
+    left: 30vw;
+    z-index: -1;
+    animation: twinkle 60s;
+    animation-iteration-count: infinite;
+}
+
+.Eva2 {
+    position: absolute;
+    width: 25vw;
+    top: 15vh;
+    left: 20vw;
+    z-index: -1;
+}
+
+.Naisha {
+    position: absolute;
+    width: 20vw;
+    top: 80vh;
+    left: 15vw;
+    z-index: -2;
+    animation: twinkle 4s;
+    animation-iteration-count: infinite;
+}
+
+.Bre-Callbacks {
+    position: absolute;
+    width: 27vw;
+    top: 50vh;
+    left: 35vw;
+    z-index: -1;
+    animation: twinkle 30s;
+    animation-iteration-count: infinite;
+}
+
+.PS {
+    position: absolute;
+    height: 70vh;
+    top: 90vh;
+    left: 5vw;
+    z-index: -3;
+    animation: twinkle 8s;
+    animation-iteration-count: infinite;
+}
+
+.Zac1 {
+    position: absolute;
+    height: 20vh;
+    top: 110vh;
+    left: 15vw;
+    z-index: -3;
+    animation: twinkle 5.5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0ms;
+}
+
+.Zac2 {
+    position: absolute;
+    height: 30vh;
+    top: 110vh;
+    left: 33vw;
+    z-index: -3;
+    animation: twinkle 4.5s;
+    animation-iteration-count: infinite;
+    animation-delay: 700ms;
+}
+
+.Zac3 {
+    position: absolute;
+    height: 15vh;
+    top: 95vh;
+    left: 15vw;
+    z-index: -3;
+    animation: twinkle 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1400ms;
+}
+
+.pattern {
+    position: absolute;
+    height: 60vh;
+    width: 60vh;
+    border-radius: 50%;
+    top: 54vh;
+    left: 10vw;
+    z-index: -4;
+    animation: twinkle 14s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes twinkle {
+    0% {opacity: 1}
+    50% {opacity: .7}
+    80% {opacity: 0}
+}
+
+.coincitation p {
+    color: #B2DF10;
+    font-family: 'Nova Cut', 'Quantico', serif;
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+
+.button {
+    font-family: 'Nova Cut';
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+
+    color: #B2DF10;
+    text-decoration: none;
+    background-color: rgba(0,0,0, .2);
+    border: 2px solid #B2DF10;
+    border-radius: 30px 0px 30px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@keyframes change {
+    0% { 	transform: rotate(0deg) translateX(150px) rotate(0deg);}
+	100%   {  transform: rotate(360deg) translateX(150px) rotate(-360deg);}
+};

@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    background: #121212;
+    font-size: 16px;
+}
+
+section {
+    text-align: center;
+    padding: 50px 80px;
+    background-color: #121212;
+    color: #d4d4d4;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: blanchedalmond;
+    background-color: rgba(20, 20, 20, .5);
+    display: none;
+}
+
+.ptext .border {
+    background-color: #111;
+    color: blanchedalmond;
+    padding: 20px;
+    display: none;
+}
+
+.lena, .murder, .bonaly, .untouched,
+.hummingbird, .bridge, .gibberish {
+    width: 98vw;
+    position: relative;
+    opacity: 0.70;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.lena {
+    background: url('img/jpeg/Lena.jpg');
+    min-height: 100%;
+}
+
+.murder{
+    background-image: url('img/jpeg/Murder.jpg');
+    min-height: 100%;
+    background-position: center;
+}
+
+.bonaly{
+    background-image: url('img/jpeg/Bonaly1.jpg');
+    min-height: 100%;
+    background-position: center;
+}
+
+.untouched{
+    background-image: url('img/jpeg/Untouched-by-the-Mother.jpg');
+    min-height: 100%;
+    background-size: contain;
+}
+.hummingbird{
+    background-image: url('img/jpeg/Hummingbird.jpg');
+    min-height: 100%;
+    background-position: center;
+}
+
+.bridge{
+    background-image: url('img/jpeg/Bridge-to-Nowhere.jpg');
+    min-height: 100%;
+    background-position: right;
+}
+
+.gibberish{
+    background-image: url('img/jpeg/Gibberish.jpg');
+    min-height: 100%;
+    background-position: center;
+}
+

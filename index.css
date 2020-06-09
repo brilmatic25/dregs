@@ -1,0 +1,348 @@
+/*font-family: 'Abril Fatface', cursive;
+font-family: 'Cormorant SC', serif;
+font-family: 'Emblema One', cursive;
+font-family: 'Faster One', cursive;
+font-family: 'Geostar Fill', cursive;
+font-family: 'Iceland', cursive;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Kumar One Outline', cursive;
+font-family: 'Libre Barcode 128 Text', cursive;
+font-family: 'Marcellus SC', serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Nosifer', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Quantico', sans-serif;
+font-family: 'Rajdhani', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    display: border-box;
+}
+
+body {
+    background-color: #242424;
+    width: 98vw;
+    height: 100vh;
+    overflow: display;
+    background-color: black;
+}
+
+.nav-bar {
+    display: inline-block;
+    background-color: black;
+    width: 98vw;
+    height: 13vh;
+    position: fixed;
+    z-index: 1;
+}
+
+.navType {
+    height: 70%;
+    margin-left: 4%;
+    margin-top: .3%;
+}
+
+.container {
+    height: 90vh;
+    width: 98vw;
+    position: relative;
+    background-color: black;
+    position: relative;
+    display: block;
+}
+
+.title {
+    width: 65vw;
+    height: 65vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+
+.title h1 {
+    font-family: Times 'Geostar Fill', cursive;
+    font-size: 29rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 0 #C60995, 2px 2px 0 #EADC36, 3px 3px 0 #4D20EF, 4px 4px 0 #E88023;
+    z-index: -1;
+}
+
+.title h2:hover {
+    filter: invert(1);
+}
+
+.title h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    text-align: center;
+    color: black;
+    text-shadow: .5px .5px 0 #C60995, .75px .75px 0 #EADC36, 1.25px 1.25px 0 #4D20EF, 1.5px 1.5px 0 #E88023;
+    position: absolute;
+    bottom: -20%;
+    right: -10%;
+}
+
+img.logo {
+    height: 11vh;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+img.logo2 {
+    height: 20vh;
+    position: absolute;
+    left: 50%;
+    top: 54%; 
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.circles {
+    width: 11vh;
+    height: 11vh;
+    border-radius: 50%;
+    position: absolute;
+    opacity: .2;
+}
+
+#poetry {
+    background-color: #C60995;
+    left: 46%;
+    top: 50%;
+    animation: change 6s;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+    animation-delay: .7s;
+}
+#synonymous {
+    background-color: #E88023;
+    left: 46%;
+    top: 50%; 
+    animation: change 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: .6s;
+}
+
+#films {
+    background-color: #EADC36;
+    left: 46%;
+    top: 50%; 
+    animation: change 6s;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+    animation-delay: .5s;
+}
+ 
+#instagram {
+    background-color: #4D20EF;
+    left: 46%;
+    top: 50%; 
+    animation: change 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: .4s;
+}
+
+
+#poetry2 {
+    background-color: #39F66A;
+    left: 46%;
+    top: 50%;
+    animation: change 6s;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+    animation-delay: .3s;
+}
+#synonymous2 {
+    background-color: #177FDC;
+    left: 46%;
+    top: 50%; 
+    animation: change 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: .2s;
+}
+#films2 {
+    background-color: #1523C9;
+    left: 46%;
+    top: 50%; 
+    animation: change 6s;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+    animation-delay: .1s;
+}
+ 
+#instagram2 {
+    background-color: #242424;
+    left: 46%;
+    top: 50%;
+    animation: change 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+
+@keyframes change {
+    0% { 	transform: rotate(0deg) translateX(200px) rotate(0deg);}
+	100%   {  transform: rotate(360deg) translateX(200px) rotate(-360deg);}
+};
+
+
+
+.Bre1 {
+    background-color: #39F66A;
+    height: 50vh;
+    opacity: .7;
+}
+
+.text-container {
+    width: 60%;
+    height: 105vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.text {
+    font-family: 'Quantico', sans-serif, serif;
+    width: 51.8%;
+    height: 56%;
+    float: right;
+    background-color: black;
+    color: rgb(255, 110, 199);
+    text-shadow: .4px .4px 0 #C60995, .6px .6px 0 #EADC36, 1px 1px 0 #4D20EF, 1.5px 1.5px 0 #E88023;
+    border-radius: 1%;
+    box-shadow: 1px 1px 0 #39F66A, 2px 2px 0 #1523C9, 3px 3px 0 #B2DF10, 4px 4px 0 #177FDC;
+    position: relative;
+    margin-top: 18.5%;
+    padding: 10.08px;
+    margin-left: 1%;
+    box-sizing: border-box;
+    text-align: justify;
+    opacity: .6;
+}
+
+.text p {
+    position: relative;
+    top: 0%;
+    text-indent: 50px;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    text-shadow: .5px .5px 0 #242424;
+    z-index: 2;
+}
+
+#abstraction {
+    text-indent: 0px;
+    text-align: center;
+}
+
+
+.Bre1 video {
+    width: 40%;
+   float: left;
+   background-color: black;
+}
+
+.Section1 {
+    width: 50vw;
+    padding: 10px;
+    text-align: left;
+    background-color: #d4d4d4;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    clear: both;
+}
+
+.Section1 h2 {
+    font-family: 'Quantico', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: .5px .5px 0 #C60995, .75px .75px 0 #EADC36, 1.25px 1.25px 0 #4D20EF, 1.5px 1.5px 0 #E88023;
+    filter: invert(1);
+}
+
+.pearl {
+    float: left;
+    height: 300px;
+    margin: 10px;
+}
+
+.Rembrandt {
+    float: right;
+    width: 350px;
+    margin: 10px;
+}
+
+.Section1 p {
+    text-indent: 50px;
+    line-height: 1.8rem;
+}
+
+.button {
+    text-align: center;
+    font-family: 'Abril Fatface';
+    text-decoration: none;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    color: rgba(57, 50, 54, 0.863);
+    background-color: #d4d4d4;
+    border: 1px solid rgba(97, 100, 94, 0.863);
+    border-radius: 30px;
+
+    z-index: 2;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*.centerImage {
+    clip-path: circle(50%);
+    scale: .85;
+    object-fit: cover;
+}
+
+.left {
+    width: 48%;
+    float: left;
+}
+
+.left:before,
+.right:before {
+    content: "";
+    width: ____;
+    height: _____;
+}
+
+.left:before {
+    float: right;
+
+}
+
+.right {
+    width: 48%;
+    float: right;
+} */
